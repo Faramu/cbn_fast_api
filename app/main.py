@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+﻿from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import os
@@ -6,7 +6,7 @@ from sqlmodel import SQLModel
 from .database import engine
 
 # Import routers
-from .routers import proyek, aplikasi, sprint, task, kpi, auth, karyawan, submit_task
+from .routers import proyek, aplikasi, sprint, task, kpi, auth, karyawan, submit_task, geofence_absen
 
 app = FastAPI(title="KPI API", version="1.0.0")
 
@@ -31,6 +31,7 @@ app.include_router(kpi.router)
 app.include_router(auth.router)
 app.include_router(karyawan.router)
 app.include_router(submit_task.router)
+app.include_router(geofence_absen.router)
 
 @app.on_event("startup")
 def on_startup():
@@ -39,3 +40,4 @@ def on_startup():
 @app.get("/")
 def read_root():
     return {"message": "Welcome to KPI API"}
+

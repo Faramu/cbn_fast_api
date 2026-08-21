@@ -97,3 +97,29 @@ class SubmitTaskCreate(BaseModel):
 
 class SubmitTaskReview(BaseModel):
     is_passed: bool  # True = Pass, False = Reject (kembali ke In_Progress)
+
+# --- Kantor & Absensi (Geofencing) ---
+class KantorResponse(BaseModel):
+    id_kantor: int
+    kantor_latitude: float
+    kantor_longitude: float
+    radius_meter: int
+
+class KantorCreate(BaseModel):
+    kantor_latitude: float
+    kantor_longitude: float
+    radius_meter: int
+
+class AbsensiResponse(BaseModel):
+    id_absensi: int
+    id_karyawan: int
+    tanggal_absen: date
+    jam_absen: time
+    jam_keluar: Optional[time] = None
+    jenis_kerja: str
+    latitude: float
+    longitude: float
+    kpi_status: int
+    alasan_telat: Optional[str] = None
+    bukti_keterlambatan: Optional[str] = None
+    persetujuan_terlambat: Optional[str] = None

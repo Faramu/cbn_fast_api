@@ -96,7 +96,7 @@ class Absensi(SQLModel, table=True):
     jenis_kerja: JenisKerjaEnum
     latitude: Decimal
     longitude: Decimal
-    kpi_status: KpiStatusEnum
+    kpi_status: int
     alasan_telat: Optional[str] = None
     bukti_keterlambatan: Optional[str] = None
     persetujuan_terlambat: Optional[PersetujuanEnum] = None
