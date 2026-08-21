@@ -63,6 +63,11 @@ class TipeTaskEnum(str, Enum):
     Tech_Debt = "Tech_Debt"
     Change_Request = "Change_Request"
 
+class StatusSubmitEnum(str, Enum):
+    Review = "Review"
+    Reject = "Reject"
+    Pass   = "Pass"
+
 class Karyawan(SQLModel, table=True):
     __tablename__ = "Karyawan"
     id_karyawan: Optional[int] = Field(default=None, primary_key=True)
@@ -105,7 +110,17 @@ class Proyek(SQLModel, table=True):
     tanggal_selesai: date
     metodologi: MetodologiEnum
     status: StatusProyekEnum
-    qa_proyek: Optional[int] = Field(default=None, foreign_key="Karyawan.id_karyawan")
+
+class Aplikasi(SQLModel, table=True):
+    __tablename__ = "Aplikasi"
+    id_aplikasi: Optional[int] = Field(default=None, primary_key=True)
+    id_proyek: int = Field(foreign_key="Proyek.id_proyek")
+    nama_aplikasi: str
+    deskripsi: Optional[str] = None
+    tanggal_mulai: date
+    tanggal_selesai: date
+    status: StatusProyekEnum
+    qa_aplikasi: Optional[int] = Field(default=None, foreign_key="Karyawan.id_karyawan")
 
 class AnggotaProyek(SQLModel, table=True):
     __tablename__ = "AnggotaProyek"
@@ -117,7 +132,7 @@ class AnggotaProyek(SQLModel, table=True):
 class Sprint(SQLModel, table=True):
     __tablename__ = "Sprint"
     id_sprint: Optional[int] = Field(default=None, primary_key=True)
-    id_proyek: int = Field(foreign_key="Proyek.id_proyek")
+    id_aplikasi: int = Field(foreign_key="Aplikasi.id_aplikasi")
     nama_sprint: str
     deskripsi: Optional[str] = None
     tanggal_mulai: date
@@ -139,6 +154,14 @@ class Task(SQLModel, table=True):
     waktu_selesai: Optional[datetime] = None
     jumlah_revisi: int = Field(default=0)
     dikerjakan_mandiri: bool = Field(default=False)
+
+class SubmitTask(SQLModel, table=True):
+    __tablename__ = "SubmitTask"
+    id_submit_task: Optional[int] = Field(default=None, primary_key=True)
+    id_task: int = Field(foreign_key="Task.id_task")
+    url_task: str
+    catatan: Optional[str] = None
+    status: StatusSubmitEnum = Field(default=StatusSubmitEnum.Review)
 
 class DoubleJob(SQLModel, table=True):
     __tablename__ = "DoubleJob"

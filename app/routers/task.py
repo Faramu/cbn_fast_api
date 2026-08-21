@@ -4,7 +4,7 @@ from datetime import datetime, time
 from typing import List, Optional
 from ..database import get_session
 from ..models import Task, Sprint, StatusTaskEnum
-from ..schemas import TaskCreate, TaskReview
+from ..schemas import TaskCreate, TaskReview, TaskUpdate
 
 router = APIRouter(
     prefix="/api/task",
@@ -45,6 +45,21 @@ def create_task(task_in: TaskCreate, session: Session = Depends(get_session)):
         jumlah_revisi=0
     )
     
+    session.add(task)
+    session.commit()
+    session.refresh(task)
+    return task
+
+@router.put("/{id_task}", response_model=Task)
+def update_task(id_task: int, task_in: TaskUpdate, session: Session = Depends(get_session)):
+    task = session.get(Task, id_task)
+    if not task:
+        raise HTTPException(status_code=404, detail="Task not found")
+
+    update_data = task_in.model_dump(exclude_unset=True)
+    for key, value in update_data.items():
+        setattr(task, key, value)
+
     session.add(task)
     session.commit()
     session.refresh(task)

@@ -1,0 +1,309 @@
+{
+  "Karyawan": [
+    {
+      "email": "andi@gmail.com",
+      "id_karyawan": 1,
+      "posisi": "Frontend",
+      "role": "Direktur",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-ANDI-2026",
+      "nama_karyawan": "Andi Prayoga",
+      "foto_karyawan": null
+    },
+    {
+      "email": "budi@gmail.com",
+      "id_karyawan": 2,
+      "posisi": "Backend",
+      "role": "HRD",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-BUDI-2026",
+      "nama_karyawan": "Budi Santoso",
+      "foto_karyawan": null
+    },
+    {
+      "email": "citra@gmail.com",
+      "id_karyawan": 3,
+      "posisi": "Staff",
+      "role": "HRD",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-CITRA-2026",
+      "nama_karyawan": "Citra Lestari",
+      "foto_karyawan": null
+    },
+    {
+      "email": "dewi@gmail.com",
+      "id_karyawan": 4,
+      "posisi": "Staff",
+      "role": "HRD",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-DEWI-2026",
+      "nama_karyawan": "Dewi Sartika",
+      "foto_karyawan": null
+    },
+    {
+      "email": "eko@gmail.com",
+      "id_karyawan": 5,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-EKO-2026",
+      "nama_karyawan": "Eko Prasetyo",
+      "foto_karyawan": null
+    },
+    {
+      "email": "fajar@gmail.com",
+      "id_karyawan": 6,
+      "posisi": "Back-end Dev.",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-FAJAR-2026",
+      "nama_karyawan": "Fajar Nugroho",
+      "foto_karyawan": "uploads/f6e22cf6-ab18-40f7-87f3-fd6c3711e5ee.jpg"
+    },
+    {
+      "email": "gita@gmail.com",
+      "id_karyawan": 7,
+      "posisi": "Front-end Dev.",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-GITA-2026",
+      "nama_karyawan": "Gita Gutawa",
+      "foto_karyawan": "http://192.168.0.212:8000/uploads/4414deed-8069-4b8b-b351-d49106ab145a.jpg"
+    },
+    {
+      "email": "hadi@gmail.com",
+      "id_karyawan": 8,
+      "posisi": "Quality Assurance",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-HADI-2026",
+      "nama_karyawan": "Hadi Sucipto",
+      "foto_karyawan": "http://192.168.0.212:8000/uploads/e4d015bf-4936-4686-8105-e5bbf9d06e93.jpg"
+    },
+    {
+      "email": "indra@gmail.com",
+      "id_karyawan": 9,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-INDRA-2026",
+      "nama_karyawan": "Indra Wijaya",
+      "foto_karyawan": null
+    },
+    {
+      "email": "joko@gmail.com",
+      "id_karyawan": 10,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-JOKO-2026",
+      "nama_karyawan": "Joko Widodo",
+      "foto_karyawan": null
+    },
+    {
+      "email": "kartika@gmail.com",
+      "id_karyawan": 11,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-KARTIKA-2026",
+      "nama_karyawan": "Kartika Putri",
+      "foto_karyawan": null
+    },
+    {
+      "email": "lestari@gmail.com",
+      "id_karyawan": 12,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-LESTARI-2026",
+      "nama_karyawan": "Lestari Ayu",
+      "foto_karyawan": null
+    },
+    {
+      "email": "maman@gmail.com",
+      "id_karyawan": 13,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-MAMAN-2026",
+      "nama_karyawan": "Maman Abdurrahman",
+      "foto_karyawan": null
+    },
+    {
+      "email": "nita@gmail.com",
+      "id_karyawan": 14,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-NITA-2026",
+      "nama_karyawan": "Nita Talia",
+      "foto_karyawan": null
+    },
+    {
+      "email": "oka@gmail.com",
+      "id_karyawan": 15,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-OKA-2026",
+      "nama_karyawan": "Oka Antara",
+      "foto_karyawan": null
+    },
+    {
+      "email": "putri@gmail.com",
+      "id_karyawan": 16,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-PUTRI-2026",
+      "nama_karyawan": "Putri Titian",
+      "foto_karyawan": null
+    },
+    {
+      "email": "qori@gmail.com",
+      "id_karyawan": 17,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-QORI-2026",
+      "nama_karyawan": "Qori Sandioriva",
+      "foto_karyawan": null
+    },
+    {
+      "email": "rudi@gmail.com",
+      "id_karyawan": 18,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-RUDI-2026",
+      "nama_karyawan": "Rudi Hartono",
+      "foto_karyawan": null
+    },
+    {
+      "email": "siti@gmail.com",
+      "id_karyawan": 19,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-SITI-2026",
+      "nama_karyawan": "Siti Aminah",
+      "foto_karyawan": null
+    },
+    {
+      "email": "tono@gmail.com",
+      "id_karyawan": 20,
+      "posisi": "Staff",
+      "role": "Karyawan",
+      "password": "$2b$12$CHlbic5bpeQzQCGnEyfG2.IRbgYmwTTlldnpip7eXuurLoHLIw8Tm",
+      "nip": "NIP-TONO-2026",
+      "nama_karyawan": "Tono Haryanto",
+      "foto_karyawan": null
+    }
+  ],
+  "Kantor": [],
+  "Absensi": [],
+  "Proyek": [
+    {
+      "nama_proyek": "Sistem KPI",
+      "deskripsi": "Membuat Project KPI",
+      "tanggal_selesai": "2026-09-17",
+      "status": "Aktif",
+      "tanggal_mulai": "2026-08-13",
+      "id_proyek": 1,
+      "metodologi": "Scrum",
+      "qa_proyek": 8
+    },
+    {
+      "nama_proyek": "Sistem KPI Website",
+      "deskripsi": "Membuat Project KPI versi Website",
+      "tanggal_selesai": "2026-10-14",
+      "status": "Aktif",
+      "tanggal_mulai": "2026-08-14",
+      "id_proyek": 6,
+      "metodologi": "Kanban",
+      "qa_proyek": 8
+    }
+  ],
+  "AnggotaProyek": [
+    {
+      "id_anggota_proyek": 11,
+      "id_proyek": 6,
+      "id_karyawan": 13,
+      "proyek_role": "Technical_Leader"
+    },
+    {
+      "id_anggota_proyek": 12,
+      "id_proyek": 6,
+      "id_karyawan": 8,
+      "proyek_role": "QA"
+    },
+    {
+      "id_anggota_proyek": 13,
+      "id_proyek": 6,
+      "id_karyawan": 6,
+      "proyek_role": "Member"
+    },
+    {
+      "id_anggota_proyek": 14,
+      "id_proyek": 6,
+      "id_karyawan": 7,
+      "proyek_role": "Member"
+    }
+  ],
+  "Sprint": [
+    {
+      "nama_sprint": "Sprint 1",
+      "tanggal_mulai": "2026-08-01",
+      "status": "Aktif",
+      "deskripsi": "sprint ke satu",
+      "id_sprint": 1,
+      "id_proyek": 6,
+      "tanggal_selesai": "2026-08-30"
+    },
+    {
+      "nama_sprint": "Sprint 1",
+      "tanggal_mulai": "2026-08-01",
+      "status": "Aktif",
+      "deskripsi": "1",
+      "id_sprint": 2,
+      "id_proyek": 1,
+      "tanggal_selesai": "2026-09-12"
+    }
+  ],
+  "Task": [
+    {
+      "id_task": 1,
+      "deskripsi": "login website",
+      "prioritas": "Medium",
+      "status": "To_Do",
+      "tugas_dimulai": null,
+      "jumlah_revisi": 0,
+      "tipe_task": "Feature",
+      "judul": "Membuat fitur login",
+      "id_sprint": 2,
+      "id_karyawan": null,
+      "waktu_deadline": "2026-09-12T23:59:59",
+      "waktu_selesai": null,
+      "dikerjakan_mandiri": false
+    },
+    {
+      "id_task": 2,
+      "deskripsi": "-",
+      "prioritas": "Medium",
+      "status": "To_Do",
+      "tugas_dimulai": null,
+      "jumlah_revisi": 0,
+      "tipe_task": "Bug",
+      "judul": "perbaiki gitu registrasi",
+      "id_sprint": 2,
+      "id_karyawan": null,
+      "waktu_deadline": "2026-08-22T23:59:59",
+      "waktu_selesai": null,
+      "dikerjakan_mandiri": false
+    }
+  ],
+  "DoubleJob": [],
+  "KpiKerjaSama": [],
+  "LaporanKpi": []
+}

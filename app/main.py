@@ -6,7 +6,7 @@ from sqlmodel import SQLModel
 from .database import engine
 
 # Import routers
-from .routers import proyek, sprint, task, kpi, auth, karyawan
+from .routers import proyek, aplikasi, sprint, task, kpi, auth, karyawan, submit_task
 
 app = FastAPI(title="KPI API", version="1.0.0")
 
@@ -24,11 +24,13 @@ app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 # Include routers
 app.include_router(proyek.router)
+app.include_router(aplikasi.router)
 app.include_router(sprint.router)
 app.include_router(task.router)
 app.include_router(kpi.router)
 app.include_router(auth.router)
 app.include_router(karyawan.router)
+app.include_router(submit_task.router)
 
 @app.on_event("startup")
 def on_startup():
